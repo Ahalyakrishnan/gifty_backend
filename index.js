@@ -15,7 +15,7 @@ app.use(cors(corsOptions));
 
 app.use("/gift",userRouter);
 
-mongoose.connect('mongodb+srv://ivanherald:1234567!@gift.wuldils.mongodb.net/?retryWrites=true&w=majority'
+mongoose.connect('mongodb+srv://Ahalya:1234567!@cluster.h0isv.mongodb.net/?retryWrites=true&w=majority'
 ).then(()=>
     app.listen(3000,()=>
      console.log("Connected to Database And Server is running")
