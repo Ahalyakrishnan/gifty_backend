@@ -6,7 +6,7 @@ import cors from 'cors';
 import userRouter from './Routes/routes.js';
 const app=express();
 app.use(express.json());
-const allowedOrigin = 'https://gifty-green-two.vercel.app/';
+const allowedOrigin = 'https://gifty-frontend-dun.vercel.app/';
 const corsOptions = {
     origin: allowedOrigin,
   };
